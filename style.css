@@ -1,0 +1,497 @@
+body{
+    width: 1440px;
+    margin: 0px auto;
+    font-family: "Roboto", sans-serif;
+}
+/* nav -bar */
+ .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 13.32px;
+    font-size: 34px;  
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.button{
+    align-items: center;
+    border: 1px solid rgb(25, 26, 35);
+    padding: 20px 30px;
+    border-radius: 14px;
+    color: black;
+}
+
+/* bannar-section */
+.bannar-section{
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 35px;   
+    padding: 0px; 
+}
+
+.bannar-title{
+    font-weight: 500;
+    font-size: 66px;
+    text-align: left;
+}
+
+.bannar-p{
+    /* width: 531px; */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.bannar-button{
+    align-items: center;
+    border: 1px solid;
+    padding: 16px 26px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    
+}
+
+/* sponsore-logo */
+.sponsore-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0px 70px 0px;
+}
+
+/* services-section */
+.services{
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    margin: 80px 0px 80px 0px;
+}
+.services-heading{
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 40px;
+    background-color: rgb(185, 255, 102);
+    border-radius: 10px;
+    padding: 0px 7px 0px 7px;
+}
+.services-dis{
+    font-weight: 400;
+    font-size: 18px;display: flex;
+}
+
+/* cards-section */
+.cards-section{
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+/* card-section */
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 69px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(243, 243, 243);
+    padding: 50px;
+}
+
+.card-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 81px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(185, 255, 102);
+    padding: 50px;
+}
+
+/* card-section-2 */
+.card-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 94px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(25, 26, 35);
+    padding: 50px;
+}
+
+.card-4{
+    display: flex;
+    justify-content: space-between;
+    gap: 126px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(243, 243, 243);
+    padding: 50px;
+}
+/* card-section-3 */
+.card-5{
+    display: flex;
+    justify-content: space-between;
+    gap: 126px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(185, 255, 102);
+    padding: 50px;
+}
+.card-6{
+    display: flex;
+    justify-content: space-between;
+    gap: 77px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(25, 26, 35);
+    padding: 50px;
+}
+.title-span{
+    font-weight: 500;
+    font-size: 30px;
+    border: 1px solid rgb(185, 255, 102);
+    border-radius: 6px;
+    background-color: rgb(185, 255, 102);
+}
+.title-span-2{
+    font-weight: 500;
+    font-size: 30px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 6px;
+    background-color: rgb(243, 243, 243);
+}
+.title-span-3{
+    font-weight: 500;
+    font-size: 30px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 6px;
+    background-color: rgb(243, 243, 243);
+}
+
+/* CTA-section */
+
+.cta-section{
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 35px;   
+    border: 2px solid white;
+    border-radius: 35px;
+    background-color: rgb(243, 243, 243);
+    padding: 0px 0px 60px 60px;
+}
+
+.cta-bannar-title{
+    font-weight: 500;
+    font-size: 66px;
+    text-align: left;
+}
+
+.cta-bannar-p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.cta-bannar-button{
+    align-items: center;
+    border: 1px solid;
+    padding: 16px 26px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+}
+
+/* case-studies */
+.case-studies{
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    margin: 140px 0px 80px 0px;
+}
+.case-title{
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgb(185, 255, 102);
+    padding: 0px 7px 0px 7px;
+}
+.case-pd{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* case-studies-block */
+.case-block{
+    margin: 80px 0px 140px 0px;
+}
+.case-studies-2{
+    display: flex;
+    /* justify-content: space-between; */
+    border: 2px solid black;
+    border-radius: 45px;
+    gap: 128px;
+    color: white;
+    background-color: rgb(25, 26, 35);
+    padding: 70px 60px 70px 60px; 
+    font-weight: 500; 
+    font-size: 18px;
+}
+.over-work{
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+.over-work-title{
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 0px 7px 0px 7px;
+    background-color:rgb(185, 255, 102);
+}
+/* process-block */
+.process-block{
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(185, 255, 102);
+    padding: 41px 60px 41px 60px;
+    margin: 80px 0px 30px 0px;
+}
+h1{
+    font-weight: 500;
+    font-size: 60px;
+}
+.block-span{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.process-block-2{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    padding: 41px 60px 41px 60px;
+    background-color: rgb(243, 243, 243);
+    margin: 30px 0px 30px 0px;
+}
+h1{
+    font-weight: 500;
+    font-size: 60px;
+}
+.process-block-3{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    padding: 41px 60px 41px 60px;
+    background-color: rgb(243, 243, 243);
+} 
+.process-block-6{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    padding: 41px 60px 41px 60px;
+    background-color: rgb(243, 243, 243);
+}
+
+/* team-section */
+.team-section{
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    margin: 140px 0px 60px 0px;
+}
+.team-title{
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgb(185, 255, 102);
+    padding: 0px 7px 0px 7px;
+}
+
+/* team-cards */
+.cards-section{
+    display: flex;
+    gap: 40px;
+}
+.team-cards{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 35px 40px 35px;
+
+}
+/* .cards-section .team-cards .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 15px;
+    border: 2px solid black;
+} */
+
+/* team-button */
+.team-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-span{
+    border: 2p solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px 50px;
+    color: black;
+}
+
+/* testiminials section */
+.testimunials{
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+.tsm-title{
+    font-weight: 500;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(185, 255, 102);
+    padding: 0px 7px 0px 7px;
+}
+/* testimunials-block */
+.testimunials-block{
+    display: flex;
+    gap: 50px;
+    border: 2px solid rgb(185, 255, 102);
+    border-radius: 45px;
+    background-color: rgb(25, 26, 35);
+    color: white;
+    padding: 50px 84px 68px 50px;
+}
+.block-style{
+    border: 10px solid rgb(214, 255, 102);
+    border-radius: 45px;
+    padding: 50px;
+
+}
+
+/* contact-section */
+.contact{
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+.contact-title{
+    font-weight: 500;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 14px;
+    background-color: rgb(185, 255, 102);
+    padding: 0px 7px 0px 7px;
+}
+
+/* input-section */
+.input-section{
+    font-weight: 400;
+    font-size: 18px;
+    gap: 30px;
+    border: 20px solid white;
+    border-radius: 45px;
+    background-color: rgb(243, 243, 243);
+    padding: 60px 100px 80px 100px;
+}
+
+
+.input-mane{
+    display: flex;
+    flex-direction: column;
+    gap: 5pxpx;
+}
+
+.textare{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 556px;
+    height: 190;
+}
+.input-button{
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+}
+
+/* footer-block */
+.footer-block{
+    border: 2px so black;
+    border-radius: 45px;
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+.email-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-us-title{
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: rgb(185, 255, 102);
+    padding: 0px 7px 0px 7px;
+}
+.contact-us{
+
+}
+.footer-h2{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: rgb(185, 255, 102);
+    padding: 0px 7px 0px 7px;
+}
+
+/* .footer-block .nav-bar .footer-div .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 15px;
+} */
